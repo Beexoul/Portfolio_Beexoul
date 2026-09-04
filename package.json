@@ -1,0 +1,14 @@
+{
+  "name": "portfolio-beexoul",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "echo 'Build complete'",
+    "lint": "node --check server.js && node --check assets/js/common.js && node --check assets/js/script.js && node --check assets/js/404.js && node --check blog/assets/js/blog.js && node --check blog/assets/post/post-js.js && node --check sw.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
